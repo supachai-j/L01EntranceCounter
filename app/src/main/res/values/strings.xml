@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">L01EntranceCounter</string>
+    <string name="init_counter">0</string>
+    <string name="init_male_female_counter">Male:0, Female:0</string>
+    <string name="button_male_counter">Male</string>
+    <string name="button_female_counter">Female</string>
+</resources>
