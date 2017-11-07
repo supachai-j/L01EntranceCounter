@@ -59,5 +59,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Button Reset
+        Button bt_reset_counter = (Button) findViewById(R.id.lo_bt_reset_counter);
+        bt_reset_counter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                total_counter = 0;
+                male_counter = 0;
+                female_counter = 0;
+                //modify TextView  add counting for female value
+                tv_male_female_counter.setText("Male:"+String.valueOf(0)+", Female:"+String.valueOf(0));
+                //modify TextView add counting for male value
+                tv_counter.setText(String.valueOf(0));
+            }
+        });
+
     }
 }
